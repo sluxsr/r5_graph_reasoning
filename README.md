@@ -4,10 +4,12 @@ $ python3 train.py --train data/clutrr-emnlp/data_db9b8f04/1.2,1.3,1.4_train.csv
 $ python3 train.py --train data/clutrr-emnlp/data_089907f8/1.2,1.3_train.csv --test data/clutrr-emnlp/data_089907f8/1.4_test.csv data/clutrr-emnlp/data_089907f8/1.5_test.csv data/clutrr-emnlp/data_089907f8/1.6_test.csv data/clutrr-emnlp/data_089907f8/1.7_test.csv data/clutrr-emnlp/data_089907f8/1.8_test.csv data/clutrr-emnlp/data_089907f8/1.9_test.csv data/clutrr-emnlp/data_089907f8/1.10_test.csv --full_reason True
 
 run in graphlog/ using
+'''
 $ python3 train.py --train_world world_17
 $ python3 train.py --train_world re_0 --v_T_pos 0.3 
 $ python3 train.py --train_world re_1 --v_T_pos 0.3 
 $ python3 train.py --train_world re_2 --v_T_pos 0.8 
+'''
 
 More GraphLog datasets can be downloaded at: https://github.com/facebookresearch/GraphLog
 More CLUTRR datasets can be downloaded at: https://github.com/facebookresearch/clutrr
