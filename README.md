@@ -1,7 +1,10 @@
 run in clutrr/ using
+
+```
 $ python3 train.py --train data/clutrr-emnlp/data_db9b8f04/1.2,1.3,1.4_train.csv --test data/clutrr-emnlp/data_db9b8f04/1.5_test.csv data/clutrr-emnlp/data_db9b8f04/1.6_test.csv data/clutrr-emnlp/data_db9b8f04/1.7_test.csv data/clutrr-emnlp/data_db9b8f04/1.8_test.csv data/clutrr-emnlp/data_db9b8f04/1.9_test.csv data/clutrr-emnlp/data_db9b8f04/1.10_test.csv 
 
 $ python3 train.py --train data/clutrr-emnlp/data_089907f8/1.2,1.3_train.csv --test data/clutrr-emnlp/data_089907f8/1.4_test.csv data/clutrr-emnlp/data_089907f8/1.5_test.csv data/clutrr-emnlp/data_089907f8/1.6_test.csv data/clutrr-emnlp/data_089907f8/1.7_test.csv data/clutrr-emnlp/data_089907f8/1.8_test.csv data/clutrr-emnlp/data_089907f8/1.9_test.csv data/clutrr-emnlp/data_089907f8/1.10_test.csv --full_reason True
+```
 
 run in graphlog/ using
 
